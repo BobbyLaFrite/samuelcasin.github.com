@@ -16,4 +16,4 @@ hugo.darwin
 hugo.linux
 
 # Verrou de modification
-/.hugo_build.lock
+/.hugo_build.lockgit p

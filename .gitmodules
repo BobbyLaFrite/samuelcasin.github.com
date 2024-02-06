@@ -1,3 +1,9 @@
 [submodule "themes/space"]
 	path = themes/space
 	url = https://github.com/nusserstudios/tailbliss
+[submodule "themes/educationnal"]
+	path = themes/educationnal
+	url = https://github.com/HugoBlox/theme-academic-cv
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/adityatelange/hugo-PaperMod
