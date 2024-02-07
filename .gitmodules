@@ -7,3 +7,6 @@
 [submodule "themes/paper"]
 	path = themes/paper
 	url = https://github.com/adityatelange/hugo-PaperMod
+[submodule "themes/archi"]
+	path = themes/archi
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke
