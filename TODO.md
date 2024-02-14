@@ -24,6 +24,11 @@ de plus les commits peuvent se faire uniquement avec une authentifation signée 
 * Activer un 2FA avec empreinte digitale
 * modification d'un prehook pour match des regex en cours
 * ajouter un script local pour empecher de publier des secrets enligne de manière preventive
+<<<<<<< HEAD
 * signature GPG effectué sur le PC nananna
 aaaaaaaa v2
 #signed commit FOCKCKCKCK
+=======
+* signature GPG effectué sur le PC test TESTv2
+
+>>>>>>> Test
