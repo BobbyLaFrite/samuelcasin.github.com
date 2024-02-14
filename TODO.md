@@ -14,5 +14,12 @@
 
 de plus les commits peuvent se faire uniquement avec une authentifation signée (connexion GPG)
 
-#myPassword=DOnotTRYthisAThome
+myPassword=DOnotTRYthisAThome
 
+# DONE
+* Activer la protection de la branch main
+* Enlever le bypass pour les admins
+* Activer github actions et le build de hugo directement
+* Authoriser seulement le push de la part de personnes signées (GPG par exemple)
+* Activer un 2FA avec empreinte digitale
+* 
