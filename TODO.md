@@ -14,4 +14,4 @@
 
 de plus les commits peuvent se faire uniquement avec une authentifation signée (connexion GPG)
 
-API_PASSWORD=DONOTtryThis
+API_PASSWORD=DOnotTRYthisAThome
