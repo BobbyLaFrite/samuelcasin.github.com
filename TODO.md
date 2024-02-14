@@ -14,10 +14,7 @@
 
 de plus les commits peuvent se faire uniquement avec une authentifation signée (connexion GPG)
 
-myPassword=DOnotTRYthisAThome
-the pass for the API that must be secured is : 
-newPassword=HooNo,Cringe 
-secret = toto123
+
 
 # DONE
 * Activer la protection de la branch main
@@ -26,3 +23,4 @@ secret = toto123
 * Authoriser seulement le push de la part de personnes signées (GPG par exemple)
 * Activer un 2FA avec empreinte digitale
 * modification d'un prehook pour match des regex en cours
+* ajouter un script local pour empecher de publier des secrets enligne de manière preventive
