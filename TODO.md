@@ -14,5 +14,5 @@
 
 de plus les commits peuvent se faire uniquement avec une authentifation signée (connexion GPG)
 
-#//figma_pat=DOnotTRYthisAThome
+#//figma_pat=DOnotTRYthisAThomeV2
 
