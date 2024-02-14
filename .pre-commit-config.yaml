@@ -1,8 +1,7 @@
-# .pre-commit-config.yaml
 repos:
--   repo: https://github.com/Yelp/detect-secrets
-    rev: v1.4.0
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0  # Use the appropriate version
     hooks:
-    -   id: detect-secrets
-        args: []
-        exclude: package.lock.json
+      - id: detect-secrets
+        args: ['--baseline', '.secrets.baseline']
+        exclude: .*/tests/.*
