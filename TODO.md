@@ -18,6 +18,8 @@ myPassword=DOnotTRYthisAThome
 
 the pass for the API that must be secured is : 
 newPassword=HooNo,Cringe
+pass=toto123
+passAPi=password
 
 # DONE
 * Activer la protection de la branch main
