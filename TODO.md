@@ -16,10 +16,10 @@ de plus les commits peuvent se faire uniquement avec une authentifation signée 
 
 myPassword=DOnotTRYthisAThome
 
+
 the pass for the API that must be secured is : 
-newPassword=HooNo,Cringe
+newPassword=HooNo,Cringe 
 pass=toto123
-passAPi=password
 
 # DONE
 * Activer la protection de la branch main
