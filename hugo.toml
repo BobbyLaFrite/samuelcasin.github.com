@@ -36,3 +36,7 @@ enableRobotsTXT = true
 [[params.ananke_socials]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/samuel-casin-324a26209/"
+
+
+#testing with this password
+#figma_pat=DOnotTRYthisAThome
