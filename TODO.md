@@ -16,10 +16,13 @@ de plus les commits peuvent se faire uniquement avec une authentifation signée 
 
 myPassword=DOnotTRYthisAThome
 
+the pass for the API that must be secured is : 
+newPassword=HooNo,Cringe
+
 # DONE
 * Activer la protection de la branch main
 * Enlever le bypass pour les admins
 * Activer github actions et le build de hugo directement
 * Authoriser seulement le push de la part de personnes signées (GPG par exemple)
 * Activer un 2FA avec empreinte digitale
-* 
+* modification d'un prehook pour match des regex en cours
