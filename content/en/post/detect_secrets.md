@@ -3,28 +3,28 @@ title: "Installer detect-secrets en pre-commit"
 
 description: "Installation de detect-secrets pour les pre-commit"
 
-featured_image: '/images/detect_secret.webp'
+featured_image: '/images/detect-secret.webp'
 ---
 
-#Intégration de Detect Secret dans vos workflows : Un must pour la sécurité
+# Intégration de Detect Secret dans vos workflows : Un must pour la sécurité
 Detect Secret est un outil vital pour sécuriser vos projets en prévenant l'exposition accidentelle de secrets, que ce soit des clés API,des mots de passe... dans vos dépôts git. Découvrons comment l'utiliser efficacement avec un hook de pre-commit.
 
-##Detect Secret : 
+## Detect Secret : 
  Detect Secret est conçu pour identifier automatiquement les secrets dans le code avant qu'ils n'atteignent un dépôt distant. Il sert de garde-fou contre la fuite de données sensibles de manière locale.
 
-##Fonctionnement :
+## Fonctionnement :
 Detect Secret fonctionne en scannant les fichiers à la recherche de motifs qui ressemblent à des secrets. Il se sert de plusieurs types d'analyses pour détecter tous les secrets potentiels
 
-###Analyse Heuristique
+### Analyse Heuristique
 Détecteurs de Signature: Detect Secret utilise des détecteurs spécifiques pour identifier les signatures courantes de secrets, comme les formats de clés API ou les tokens JWT.
 Règles de Détecteurs: Il applique des règles heuristiques pour évaluer si une chaîne de caractères correspond à un secret potentiel, réduisant ainsi les faux positifs.
-###Audit et Validation
+### Audit et Validation
 **Audit Manuel:** Après la détection, les développeurs peuvent auditer manuellement les résultats, marquant les véritables secrets pour prévenir leur divulgation.
 Validation Automatique: Dans certains cas, Detect Secret peut automatiquement valider l'authenticité d'un secret en utilisant des vérifications de format ou en se connectant à des services externes (selon la configuration).
-##Intégration avec pre-commit
+## Intégration avec pre-commit
 L'intégration de Detect Secret dans le workflow de pre-commit permet d'automatiser la détection des secrets au moment du commit, garantissant qu'aucun secret ne quitte votre environnement de développement.
 
-##Installation :
+## Installation :
 Installez pre-commit et detect-secrets via pip.
 
 ```
