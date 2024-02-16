@@ -14,7 +14,12 @@
 
 de plus les commits peuvent se faire uniquement avec une authentifation signée (connexion GPG)
 
-
+- [ ] remplacer version hugo yml par un call secret sur github
+- [ ] tester le pull request avec un review de timothé
+- [ ] tester la publication de la clé SSh
+- [ ] faire un test de github action sur une autre branche
+- [ ] voir le fonctionnement de dependabot en detail
+- [ ] faire un article sur le site HUGO sur comment mettre en place secret scanner
 
 # DONE
 * Activer la protection de la branch main
@@ -25,4 +30,4 @@ de plus les commits peuvent se faire uniquement avec une authentifation signée 
 * modification d'un prehook pour match des regex en cours
 * ajouter un script local pour empecher de publier des secrets enligne de manière preventive
 * signature GPG effectué sur le PC test TESTv2
-aaaaa
+
