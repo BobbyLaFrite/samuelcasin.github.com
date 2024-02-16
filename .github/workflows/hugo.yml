@@ -32,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.120.4 #TODO remove
+      HUGO_VERSION: ${{ secrets.HUGO_VERSION }}
     steps:
       - name: Install Hugo CLI
         run: |
