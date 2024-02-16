@@ -26,3 +26,4 @@ de plus les commits peuvent se faire uniquement avec une authentifation signée 
 * ajouter un script local pour empecher de publier des secrets enligne de manière preventive
 * signature GPG effectué sur le PC test TESTv2
 aaaaa
+test 123
