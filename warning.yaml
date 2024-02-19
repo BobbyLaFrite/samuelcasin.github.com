@@ -1,0 +1,12 @@
+defaultPortal: production
+portals:
+  - name: production
+    portalId: <portalId>
+    authType: personalaccesskey
+    personalAccessKey: >-
+      CJDVnLanLRICEQIYyLu8LyDh9E4opf1GMhkAxGuU5XN_O2O2QhX0khw7cwIkPkBRHye-OfIADgLBAAADAIADAAAAAAAAAAJCGQC8a5TlhtSU8T-2mVLxOBpxS18aM42oGKk # pragma: allowlist secret
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CJDVnLanLRICEQIYyLu8LyDh9E4opf1GMhkAxGuU5XN_O2O2QhX0khw7cwIkPkBRHye-OfIADgLBAAADAIADAAAAAAAAAAJCGQC8a5TlhtSU8T-2mVLxOBpxS18aM42oGKk # pragma: allowlist secret
+        expiresAt: '2020-01-01T00:00:00.000Z'
